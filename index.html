@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator workshop</title>
+</head>
+<body>
+    <h1> Calculator </h1>
+    
+    <main>
+        <div>
+            <label for="valeur1">Choississez 1ere valeur</label>
+            <input type="number" name= "valeur 1" id= "valeur1" min = "0" max = "100">
+        </div>
+        <div>
+            <label for="operator">Choississez l'opérateur</label>
+            <select name = "operator" id= "operator">
+                <option value="add">+</option>
+                <option value="substract">-</option>
+                <option value="multiply">*</option>
+                <option value="divide">/</option>
+            </select>
+        </div>
+        <div>
+            <label for="valeur2">Choississez 1ere valeur</label>
+            <input type="number" name= "valeur 2" id= "valeur2" min = "0" max = "100">
+        </div>
+        <div>
+            <button id="btnCalcul">Calculer</button>
+        </div>
+    </main>
+    <script src =script.js></script>   
+</body>
+</html>
